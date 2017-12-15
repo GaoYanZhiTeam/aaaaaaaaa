@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "FLAnimatedImageView.h"
+#import <FLAnimatedImageView+WebCache.h>
 @interface ViewController : UIViewController
 
 

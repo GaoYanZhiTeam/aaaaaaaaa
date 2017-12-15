@@ -15,6 +15,9 @@
 		18960E481FBD8FD900CA0011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18960E471FBD8FD900CA0011 /* main.m */; };
 		18960E521FBD8FD900CA0011 /* aaaaaaaaaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18960E511FBD8FD900CA0011 /* aaaaaaaaaTests.m */; };
 		18960E5D1FBD8FD900CA0011 /* aaaaaaaaaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18960E5C1FBD8FD900CA0011 /* aaaaaaaaaUITests.m */; };
+		18960EAB1FBD915B00CA0011 /* kkkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18960EA91FBD915B00CA0011 /* kkkViewController.m */; };
+		18960EAC1FBD915B00CA0011 /* kkkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18960EAA1FBD915B00CA0011 /* kkkViewController.xib */; };
+		3913A952A646F111E2A1B6E1 /* libPods-aaaaaaaaa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0F77E042791110E8099C /* libPods-aaaaaaaaa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180A0F77E042791110E8099C /* libPods-aaaaaaaaa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aaaaaaaaa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18960E351FBD8FD800CA0011 /* aaaaaaaaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aaaaaaaaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18960E381FBD8FD800CA0011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18960E391FBD8FD900CA0011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,11 @@
 		18960E581FBD8FD900CA0011 /* aaaaaaaaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaaaaaaaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18960E5C1FBD8FD900CA0011 /* aaaaaaaaaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaaaaaaaaUITests.m; sourceTree = "<group>"; };
 		18960E5E1FBD8FD900CA0011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18960EA81FBD915B00CA0011 /* kkkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkkViewController.h; sourceTree = "<group>"; };
+		18960EA91FBD915B00CA0011 /* kkkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkkViewController.m; sourceTree = "<group>"; };
+		18960EAA1FBD915B00CA0011 /* kkkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = kkkViewController.xib; sourceTree = "<group>"; };
+		2E0F77F3F67344D450C856EF /* Pods-aaaaaaaaa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aaaaaaaaa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aaaaaaaaa/Pods-aaaaaaaaa.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF39A1E1D215E21222BFF0E /* Pods-aaaaaaaaa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aaaaaaaaa.release.xcconfig"; path = "Pods/Target Support Files/Pods-aaaaaaaaa/Pods-aaaaaaaaa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3913A952A646F111E2A1B6E1 /* libPods-aaaaaaaaa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				18960E501FBD8FD900CA0011 /* aaaaaaaaaTests */,
 				18960E5B1FBD8FD900CA0011 /* aaaaaaaaaUITests */,
 				18960E361FBD8FD800CA0011 /* Products */,
+				6EA7261A9933C4E4DD4611BC /* Pods */,
+				F646B352310748737E0DF2D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,9 @@
 				18960E391FBD8FD900CA0011 /* AppDelegate.m */,
 				18960E3B1FBD8FD900CA0011 /* ViewController.h */,
 				18960E3C1FBD8FD900CA0011 /* ViewController.m */,
+				18960EA81FBD915B00CA0011 /* kkkViewController.h */,
+				18960EA91FBD915B00CA0011 /* kkkViewController.m */,
+				18960EAA1FBD915B00CA0011 /* kkkViewController.xib */,
 				18960E3E1FBD8FD900CA0011 /* Main.storyboard */,
 				18960E411FBD8FD900CA0011 /* Assets.xcassets */,
 				18960E431FBD8FD900CA0011 /* LaunchScreen.storyboard */,
@@ -132,6 +147,23 @@
 			path = aaaaaaaaaUITests;
 			sourceTree = "<group>";
 		};
+		6EA7261A9933C4E4DD4611BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F77F3F67344D450C856EF /* Pods-aaaaaaaaa.debug.xcconfig */,
+				5BF39A1E1D215E21222BFF0E /* Pods-aaaaaaaaa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F646B352310748737E0DF2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180A0F77E042791110E8099C /* libPods-aaaaaaaaa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18960E611FBD8FD900CA0011 /* Build configuration list for PBXNativeTarget "aaaaaaaaa" */;
 			buildPhases = (
+				9FB01403FB27640741E122D0 /* [CP] Check Pods Manifest.lock */,
 				18960E311FBD8FD800CA0011 /* Sources */,
 				18960E321FBD8FD800CA0011 /* Frameworks */,
 				18960E331FBD8FD800CA0011 /* Resources */,
+				9C55D90BDE3B5E0C4E6D9599 /* [CP] Embed Pods Frameworks */,
+				4C9A5BF443396A38346F55E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +275,7 @@
 			files = (
 				18960E451FBD8FD900CA0011 /* LaunchScreen.storyboard in Resources */,
 				18960E421FBD8FD900CA0011 /* Assets.xcassets in Resources */,
+				18960EAC1FBD915B00CA0011 /* kkkViewController.xib in Resources */,
 				18960E401FBD8FD900CA0011 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +296,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C9A5BF443396A38346F55E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aaaaaaaaa/Pods-aaaaaaaaa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C55D90BDE3B5E0C4E6D9599 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aaaaaaaaa/Pods-aaaaaaaaa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB01403FB27640741E122D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aaaaaaaaa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18960E311FBD8FD800CA0011 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +354,7 @@
 			files = (
 				18960E3D1FBD8FD900CA0011 /* ViewController.m in Sources */,
 				18960E481FBD8FD900CA0011 /* main.m in Sources */,
+				18960EAB1FBD915B00CA0011 /* kkkViewController.m in Sources */,
 				18960E3A1FBD8FD900CA0011 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -428,13 +516,15 @@
 		};
 		18960E621FBD8FD900CA0011 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F77F3F67344D450C856EF /* Pods-aaaaaaaaa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 92UT3NC7N6;
+				DEVELOPMENT_TEAM = M2NC8A2MPU;
 				INFOPLIST_FILE = aaaaaaaaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ecshcec.aaaaaaaaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beicai.gaoyanzhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,13 +532,15 @@
 		};
 		18960E631FBD8FD900CA0011 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF39A1E1D215E21222BFF0E /* Pods-aaaaaaaaa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 92UT3NC7N6;
+				DEVELOPMENT_TEAM = M2NC8A2MPU;
 				INFOPLIST_FILE = aaaaaaaaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ecshcec.aaaaaaaaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beicai.gaoyanzhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
